@@ -1,0 +1,177 @@
+#price {
+    padding-top: 175px;
+
+    .price_head {
+        padding-bottom: 100px;
+        text-align: center;
+
+        h2 {
+            font-weight: 600;
+            font-size: 48px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+    .price_iteam {
+        background-color: #F4F6FC;
+        padding-left: 50px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        position: relative;
+        z-index: 1;
+
+        &:hover {
+            color: white;
+        }
+        &:hover span  {
+            color: #FFFFFF;
+        }
+        &:hover .price_texttwo  {
+            color: #FCD980;
+        }
+        &:hover a  {
+            background-color: #FCD980;
+            color: black;
+        }
+
+        &::after {
+            background: rgba(255, 255, 255, 0.06);
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+            border-radius: 207px 0px/145px 180px;
+
+}
+
+        &::before {
+            background-color: red;
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -2;
+            opacity: 0;
+            background-color: #1C1E53;
+
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+        }
+
+        .price_textone {
+            font-weight: 600;
+            font-size: 38px;
+            color: black;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+}
+
+        .price_texttwo {
+            font-weight: 400;
+            font-size: 16px;
+            color: #2405F2;
+            padding-left: 20px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+}
+
+        h3 {
+            font-weight: 500;
+            font-size: 24px;
+            padding-top: 20px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+}
+
+        h4 {
+            font-weight: 500;
+            font-size: 16px;
+            padding-top: 20px;
+            padding-bottom: 35px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+}
+
+        h5 {
+            font-weight: 400;
+            font-size: 16px;
+            padding-bottom: 25px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+}
+
+        i {
+            color: #97DAAD;
+            font-size: 16px;
+            padding-right: 15px;
+        }
+
+        a {
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            padding: 20px 50px;
+            background-color: #282938;
+            text-align: center;
+            margin-left: 19px;
+            margin-top: 10px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+            transition: all linear 0.5s;
+            -webkit-transition: all linear 0.5s;
+            -moz-transition: all linear 0.5s;
+            -ms-transition: all linear 0.5s;
+            -o-transition: all linear 0.5s;
+
+        }
+
+    }
+
+    .last {
+        padding-bottom: 50px !important;
+    }
+}
+
+#price .price_iteam:hover::before {
+    opacity: 1;
+}
+
+#price .price_iteam:hover::after {
+    opacity: 1;
+}

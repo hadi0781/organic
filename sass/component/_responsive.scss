@@ -1,0 +1,231 @@
+// X-Small devices (portrait phones, less than 576px)
+@media (min-width: 0px) and (max-width: 575.98px) {
+    #banner {
+        .banner_text {
+            h5 {
+                margin-top: 30px;
+                margin-right: 66px;
+
+            }
+
+        }
+    }
+
+    #banner .banner_text a {
+        background-color: #FCD980;
+        padding: 16px 25px;
+        border: 2px solid white;
+        color: #1B1C2B;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-right: 70px;
+        transition: all linear 0.5s;
+    }
+
+    #bulding .from_main a {
+        padding: 16px 30px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    #banner {
+        .banner_text {
+            text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    #work {
+        padding: 25px;
+        .work_text {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+    }
+
+    #fature {
+        .fature_main {
+            margin-top: 30px;
+        }
+    }
+
+    #bulding .bulding_img {
+        padding: 110px 90px;
+        position: relative;
+        z-index: 1;
+    }
+
+    #bulding .bulding_img h4 {
+        font-weight: 600;
+        font-size: 45px;
+        color: white;
+    }
+
+    #bulding .from_main a {
+        padding: 16px 60px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+
+    #bulding .from_main h5 {
+        display: none;
+    }
+
+    #blog_page h2 {
+        color: black;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 56px;
+        padding: 50px 0;
+        text-align: center;
+    }
+    #project {
+        padding-top: 35px;
+      }
+      #fature {
+        padding: 35px 0;
+        background-color: #F4F6FC;
+    }
+    #clients {
+        padding: 35px 0;
+        background-color: #F4F6FC;
+    }
+    #faq {
+        padding: 35px 0;
+    }
+    #blog {
+        padding: 35px 0;
+    }
+    footer {
+        padding: 35px 0;
+    }
+    #clients .clint_slick_main .cllint_slick_iteam .slick_text .slick_img .clint_slick_icone {
+        text-align: right;
+        margin: 0;
+        padding-left: 204px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    #contact .contact_main {
+        background-color: #F4F6FC !important;
+        padding: 50px 56px !important;
+    }
+
+}
+
+// Medium devices (tablets, less than 992px)
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner {
+        img {
+            display: none;
+        }
+    }
+
+    #fature .fature_main .fature_iteam h5 {
+        font-weight: 500;
+        font-size: 18px;
+        color: #282938;
+        padding-top: 22px;
+        padding-bottom: 12px;
+    }
+
+    #project .project_img2 {
+        overflow: hidden;
+        position: relative;
+        margin-top: 60px;
+        transition: all linear 0.5s;
+        text-align: center;
+    }
+    footer {
+        background-color: #1C1E53;
+        padding: 35px 0;
+    }
+    #blog {
+        padding: 35px 0;
+    }
+    #bulding .bulding_img {
+        padding: 100px 74px;
+        position: relative;
+        z-index: 1;
+    }
+    #faq {
+        padding: 50px 0;
+    }
+    #work {
+        padding: 50px 0;
+        background-color: #F4F6FC;
+    }
+    #clients {
+        padding: 50px 0;
+        background-color: #F4F6FC;
+    }
+    #fature {
+        padding: 50px 0;
+        background-color: #F4F6FC;
+    }
+    #project {
+        padding-top: 50px;
+    }
+    #contact .contact_main {
+        padding: 50px 56px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner .banner_text h5 {
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        padding: 15px 35px;
+        padding-left: 30px;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 32px;
+        margin-left: 29px;
+    }
+    #bulding .from_main a {
+        padding: 16px 91px;
+        background-color: #FCD980;
+        color: black;
+        border-radius: 50px;
+        transition: all linear 0.5s;
+    }
+    #bulding .bulding_img {
+        padding: 100px 74px 157px 80px;
+        position: relative;
+        z-index: 1;
+    }
+   
+}
+
+// Large devices (desktops, less than 1200px)
+
+// X-Large devices (large desktops, less than 1400px)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
